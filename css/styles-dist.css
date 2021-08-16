@@ -8,15 +8,15 @@ body {
   background-color: rgb(182, 105, 182);
   /* flex-direction: column;
   flex-wrap: wrap; */
-  height: 200px;
+  height: 300px;
   /* justify-content: flex-start; */
   /*  align-items: flex-start;  Necesitamos un alto declarado */
   /* align-content: space-between; */
 }
 /*  box -> FLEX ITEMS */
 .box {
-  width: 100px;
-/*   height: 100px; */
+  width: 200px;
+  height: 200px;
   /*   margin-bottom: 20px; */
   display: flex;
   justify-content: center;
@@ -24,26 +24,21 @@ body {
   font-size: 2rem;
 }
 
-.box-1 {
+ .box-1 {
   background-color: rosybrown;
   order: 3;
-  -ms-grid-row-align: start;
-      align-self: start;
+  margin: 0 auto;
 }
-
+/*
 .box-2 {
   background-color: royalblue;
   order: 2;
-}
+} 
 
 .box-3 {
   background-color: lightsalmon;
   order: 1;
-  -ms-grid-row-align: start;
-      align-self: start;
-}
+  align-self: start;
+}*/
 
-.box:nth-child(1) {
-  /* background-color:red; */
-  /* align-self: stretch; */
-}
+
